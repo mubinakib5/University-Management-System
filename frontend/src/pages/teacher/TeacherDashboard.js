@@ -23,6 +23,7 @@ import TeacherHomePage from './TeacherHomePage';
 import TeacherProfile from './TeacherProfile';
 import TeacherViewStudent from './TeacherViewStudent';
 import StudentExamMarks from '../admin/studentRelated/StudentExamMarks';
+import React from 'react';
 
 const TeacherDashboard = () => {
     const [open, setOpen] = useState(true);

@@ -18,6 +18,7 @@ import SpeedDialTemplate from "../../../components/SpeedDialTemplate";
 import Popup from "../../../components/Popup";
 import DeleteIcon from "@mui/icons-material/Delete";
 import PostAddIcon from '@mui/icons-material/PostAdd';
+import React from 'react';
 
 const ClassDetails = () => {
     const params = useParams()

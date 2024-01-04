@@ -41,6 +41,7 @@ import AddClass from './classRelated/AddClass';
 import ClassDetails from './classRelated/ClassDetails';
 import ShowClasses from './classRelated/ShowClasses';
 import AccountMenu from '../../components/AccountMenu';
+import React from 'react';
 
 const AdminDashboard = () => {
     const [open, setOpen] = useState(false);

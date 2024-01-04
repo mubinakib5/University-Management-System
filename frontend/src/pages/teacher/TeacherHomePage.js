@@ -9,6 +9,7 @@ import Time from "../../assets/time.svg";
 import { getClassStudents, getSubjectDetails } from '../../redux/sclassRelated/sclassHandle';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
+import React from 'react';
 
 const TeacherHomePage = () => {
     const dispatch = useDispatch();
